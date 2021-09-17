@@ -1,5 +1,6 @@
 {
 	"author": "GP0710",
+	"description": "A web app utilizing npm and heroku",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
