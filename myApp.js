@@ -5,7 +5,10 @@ require('dotenv').config();
 
 console.log("Hello World");
 
-
+app.use(function(req, res, next) {
+  console.log(req.method + " " + req.path + " - " + req.ip);
+  next();
+});
 
 app.get("/json", function(req, res) {
   var jsonResponse = { "message": "Hello json" };
