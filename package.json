@@ -2,6 +2,7 @@
 	"author": "GP0710",
 	"description": "A web app utilizing npm and heroku",
 	"name": "fcc-learn-npm-package-json",
+	"keywords": ["freecodecamp", "npm", "heroku"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
